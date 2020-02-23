@@ -67,7 +67,7 @@ class ToDoList extends Component {
   render() {
     return (
       <div className="todolist">
-        <h1>My To do list</h1>
+        <h1 className="title"></h1> My To do list</h1>
         <header>
           <form id="to-do-from" onSubmit={this.addItem}>
             <input
